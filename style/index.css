@@ -5,3 +5,144 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+.nav-container {
+    min-height: 50px;
+    padding: 40px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container p {
+    font-size: 45px;
+}
+
+.gamer-container {
+    Copy text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.gamer-section {
+    color: #FF42A5
+}
+
+.logo-container img {
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-item-container>ul {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-item-container>ul>li {
+    list-style: none;
+    margin-right: 32px;
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.follow-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 24px;
+}
+
+/* nav design ends here */
+
+
+/* Just simple banner section starts here */
+.banner-container {
+    /* border: 1px solid red;
+    margin: 50px auto 0;
+    /* width: 1920px;
+    height: 5927px; */
+    display: flex;
+    justify-content: space-between */
+
+    min-height: 50px;
+    padding: 40px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-btn-1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFFFFF;
+}
+
+.banner-btn-2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFFFFF;
+}
+
+.banner-container h2 {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+
+.banner-tag {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+/* Just simple banner section ends here */
+
+/*Funny videos section starts here */
+.Funny-videos-title{
+    text-align: center
+}
+.Funny-videos-text{
+    text-align: center;
+    color: #534C64;
+}
+.Funny-videos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid red;
+    /* max-width: 1400px;
+    margin: 50px 0 auto 0;
+    min-height: 400px; */
+    
+
+}
+
+
+
+
+/* Funny videos section ends here */
+
