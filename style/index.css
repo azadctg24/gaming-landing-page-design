@@ -115,7 +115,6 @@
 
 .banner-tag {
     color: #0B0223;
-    /* text-align: center; */
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 0;
@@ -154,6 +153,13 @@
     max-width: 1400px;
     margin: 0 auto;
     min-height: 400px;
+
+}
+.icon-section-container .card:hover{
+    cursor: pointer;
+    color: #FF42A5;
+    transition: 0.5s;
+    border-radius: 50px
 
 }
 
