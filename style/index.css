@@ -7,11 +7,13 @@
 }
 
 .nav-container {
-    min-height: 50px;
-    padding: 40px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+    height: 130px;
+    padding: 40px 240px;
     background-color: #FFFFFF;
 }
 
@@ -67,19 +69,14 @@
 
 /* Just simple banner section starts here */
 .banner-container {
-    /* border: 1px solid red;
     margin: 50px auto 0;
-    /* width: 1920px;
-    height: 5927px; */
-    display: flex;
-    justify-content: space-between */
-
-    min-height: 50px;
     padding: 40px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    max-width: 1400px;
+
+
 }
 
 .banner-btn-1 {
@@ -120,29 +117,116 @@
     font-weight: 600;
     margin-bottom: 0;
 }
+
 /* Just simple banner section ends here */
 
 /*Funny videos section starts here */
-.Funny-videos-title{
+.Funny-videos-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
     text-align: center
 }
-.Funny-videos-text{
+
+.Funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Funny-videos-text {
     text-align: center;
     color: #534C64;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.Funny-videos-container {
+
+.videos-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border: 1px solid red;
-    /* max-width: 1400px;
-    margin: 50px 0 auto 0;
-    min-height: 400px; */
-    
+    /* border: 1px solid red; */
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 400px;
 
 }
 
-
-
+.videos-card-container .card h2 {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 /* Funny videos section ends here */
 
+/* play instantly section started */
+.play-instantly-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.play-instantly-content {}
+
+.play-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-content {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play-instantly-title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-instantly-content {
+    padding-left: 8rem;
+}
+
+.play-instantly-img {
+    margin-left: 240px;
+}
+
+.paly-badge-img {
+    position: relative;
+    bottom: 265px;
+    right: 145px;
+}
+
+.play-instantly-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+/* play instantly section ended */
+
+
+/* many icon section starts */
+.icon-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 1920px;
+    height: 427px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+
+/* many icon section ends */
