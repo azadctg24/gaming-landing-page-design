@@ -9,13 +9,15 @@
 .nav-container,
 .logo-container,
 .nav-item-container {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-right: 300px;
     padding-left: 300px;
     background-color: #FFFFFF;
     margin: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
 }
 
 .logo-container {
