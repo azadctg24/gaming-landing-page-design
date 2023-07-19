@@ -155,12 +155,12 @@
     min-height: 400px;
 
 }
-.icon-section-container .card:hover{
+
+.icon-section-container .card:hover {
     cursor: pointer;
     color: #FF42A5;
     transition: 0.5s;
     border-radius: 50px
-
 }
 
 .videos-card-container .card h2 {
@@ -255,6 +255,40 @@ footer {
 }
 
 
+.footer-logo-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-logo img {
+    margin-right: 20px;
+    width: 86px;
+    height: 40px;
+    justify-content: center;
+    
+  
+}
+
+.footer-g-tag {
+    color: #FF42A5;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.footer-amar-tag {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
 
 .footer-navigation {
     display: flex;
